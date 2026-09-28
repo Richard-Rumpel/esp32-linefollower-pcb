@@ -1,0 +1,3 @@
+[submodule "part-libs/ESP32-DevKit-V1-DOIT"]
+	path = part-libs/ESP32-DevKit-V1-DOIT
+	url = https://github.com/syauqibilfaqih/ESP32-DevKit-V1-DOIT.git

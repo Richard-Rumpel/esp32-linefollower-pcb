@@ -1,0 +1,158 @@
+(footprint "PWR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4 -17.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e929dc5-0c16-465f-be01-5b20deb344ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PWR"
+		(at 3.5 -15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "85cb3666-46fc-4a1f-a321-7670c6df40c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07bef8c1-70e0-4cbe-aef8-945b7a6b1387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "757a7f12-c5b0-4e2e-adbf-796c4574e7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.5 -20)
+		(end 9.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "edbd05b5-773a-41ae-9066-c2f54eb04bef")
+	)
+	(fp_rect
+		(start -2 -20.5)
+		(end 10 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4ea0db9d-aacb-4e8a-8637-ca24d9a03baa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92b83a46-c368-43ae-9407-b558f4ee1201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "3cb53726-78a7-4ea5-b892-4f28bc9c5522")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "3fbb74b3-3f66-4561-969e-ce78089cc7dd")
+	)
+	(pad "3" thru_hole roundrect
+		(at 5.08 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "a90406b3-aa43-4eff-83dd-11aec73869f7")
+	)
+	(pad "4" thru_hole roundrect
+		(at 7.62 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "1f9fce34-2048-40a5-a63a-e935117a9ad7")
+	)
+	(zone
+		(layer "F.CrtYd")
+		(uuid "0d968567-402d-475d-9a2c-de4bce26e20e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1 -19.5) (xy -1 -1.5) (xy 9 -1.5) (xy 9 -19.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
