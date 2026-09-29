@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "dfg") (type "KiCad") (uri "/home/rich/projects/#kazoosh/esp32-linefollower/hardware/part-libs") (options "") (descr ""))
+)
